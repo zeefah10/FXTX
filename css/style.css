@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
+body{
+    background:#fff;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Open Sans', sans-serif;
+}
+nav{
+    width: 100%;
+}
+nav .container-fluid{
+    padding: 1% 5% 0;
+}
+nav .nav-link{
+    color: black !important;
+}
+nav .active{
+    color: #296A1E !important;
+}
+.d-flex{
+    width: 10%;
+}
+.d-flex a{
+    color: #000;
+    padding-right: 10%;
+}
+.hero{
+    width: 100%;
+    padding: 10% 5% 5%;
+    height: fit-content;
+    border-bottom: #a0a0a0 2px solid;
+}
+.hero .left{
+    width: 40%;
+    height: fit-content;
+}
+.hero h2{
+    color: #296A1E;
+}
+.hero .right img{
+    width: 100%;
+}
+.hero .left{
+    width: 40%;
+    height: fit-content;
+}
+.hero h2{
+    font-size: 250%;
+}
+.hero p{
+    padding: 3% 0 5%;
+    text-align: start;
+    font-weight: 500;
+    width: 92%;
+}
+.hero button{
+    padding: 2% 9%;
+    border-radius: 5px;
+    background-color: #296A1E;
+    color: #fff;
+    border: none;
+    margin-bottom: 5%;
+}
+.hero .left-icons i{
+    margin-right: 10%;
+    padding: 3%;
+    color: #000;
+    border-radius: 50%;
+    box-shadow: 3px 10px 14px rgb(0 0 0/15%);
+    margin-bottom: 5%;
+}
+.hero .right{
+    width: 60%;
+    text-align: center;
+    height: fit-content;
+}
+.hero .right img{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .hero .left,.right{
+        width: 100%;
+        height: fit-content;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    .hero p{
+        padding: 3% 0 5%;
+        text-align: start;
+        font-weight: 500;
+        width: 92%;
+    }
+    .hero button{
+        padding: 2% 9%;
+        border-radius: 5px;
+        background-color: #296A1E;
+        color: #fff;
+        border: none;
+        margin-bottom: 5%;
+    }
+    .hero .left-icons i{
+        margin-right: 10%;
+        padding: 3%;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: 3px 10px 14px rgb(0 0 0/15%);
+        margin-bottom: 5%;
+    }
+    .hero .right img{
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .hero .left,.right{
+        width: 100%;
+        height: fit-content;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    .hero p{
+        padding: 3% 0 5%;
+        text-align: start;
+        font-weight: 500;
+        width: 92%;
+    }
+    .hero button{
+        padding: 2% 9%;
+        border-radius: 5px;
+        background-color: #296A1E;
+        color: #fff;
+        border: none;
+        margin-bottom: 5%;
+    }
+    .hero .left-icons i{
+        margin-right: 10%;
+        padding: 3%;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: 3px 10px 14px rgb(0 0 0/15%);
+        margin-bottom: 5%;
+    }
+    .hero .right img{
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .hero .left{
+        width: 100%;
+        height: fit-content;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    .hero p{
+        padding: 3% 0 5%;
+        text-align: start;
+        font-weight: 500;
+        width: 92%;
+    }
+    .hero button{
+        padding: 2% 9%;
+        border-radius: 5px;
+        background-color: #296A1E;
+        color: #fff;
+        border: none;
+        margin-bottom: 5%;
+    }
+    .hero .left-icons i{
+        margin-right: 10%;
+        padding: 3%;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: 3px 10px 14px rgb(0 0 0/15%);
+        margin-bottom: 5%;
+    }
+    .hero .right img{
+        width: 150%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .hero .left{
+        width: 40%;
+        height: fit-content;
+    }
+    .hero h2{
+        font-size: 250%;
+    }
+    .hero p{
+        padding: 3% 0 5%;
+        text-align: start;
+        font-weight: 500;
+        width: 92%;
+    }
+    .hero button{
+        padding: 2% 9%;
+        border-radius: 5px;
+        background-color: #296A1E;
+        color: #fff;
+        border: none;
+        margin-bottom: 5%;
+    }
+    .hero .left-icons i{
+        margin-right: 10%;
+        padding: 3%;
+        color: #000;
+        border-radius: 50%;
+        box-shadow: 3px 10px 14px rgb(0 0 0/15%);
+        margin-bottom: 5%;
+    }
+    .hero .right{
+        width: 60%;
+        height: fit-content;
+    }
+    .hero .right img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    
+}
