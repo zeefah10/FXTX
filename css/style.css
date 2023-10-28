@@ -531,15 +531,12 @@ nav .active::after{
     .occ .flex{
         flex-direction: column;
         gap: 40px;
+        justify-content: space-between;
     }
     .occ h3{
         color: #296A1E;
         margin: 10% 0 15% ;
         font-size: 30px;
-    }
-    .occ .flex{
-        flex-direction: column;
-        gap: 40px;
     }
     .occ .flex .left{
         width: 60%;
@@ -590,7 +587,7 @@ nav .active::after{
     .sales .cont{
         margin-top: 10%;
         flex-direction: column;
-        gap: 60px;
+        justify-content: space-between;
     }
     .sales .cont .box{
         width: 50%;
@@ -657,7 +654,7 @@ nav .active::after{
     }
     .occ .flex{
         flex-direction: column;
-        gap: 40px;
+        gap: 50px;
     }
     .occ .flex .left{
         width: 50%;
@@ -740,6 +737,20 @@ nav .active::after{
     }
     .hero .right img{
         width: 100%;
+    }
+    .sales .cont {
+        gap: 10px;
+    }
+    .sales .cont .box{
+        width: 30%;
+        background-color: #fff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75); 
+        -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
     }
 }
 @media only screen and (min-width: 1200px) {
